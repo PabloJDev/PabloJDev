@@ -1,10 +1,10 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:1a1a2e,100:FFD700&height=220&section=header&text=Pablo%20The%20Dev%20🔥&fontSize=32&fontColor=FFD700&fontAlignY=38&desc=Front-end%20Developer%20%7C%20ADS%20Student%20%7C%20Recife%2C%20PE&descAlignY=58&descColor=ffffff&animation=twinkling)
+![Banner](./assets/github-banner.svg)
 
 <div align="center">
 
-# PabloJDev here 🔥 !
+# Pablo Santos here 🔥 !
 
-**Salve ✌️ — Eu sou o Pablo Jorge**
+**Salve ✌️ — Eu sou o Pablo Santos**
 
 </div>
 
@@ -22,7 +22,7 @@
 - 📦 Explorei **NestJS** com a `pacientes-api` — API REST com arquitetura em 3 camadas
 - ⚡ Me pergunta sobre: **React, Next.js, TypeScript, Tailwind CSS v4**
 - 🎯 Buscando primeira oportunidade como **dev front-end / estagiário**
-- 🧩 Só aprendo de verdade quando entendo o **porquê** das coisas
+- 🧩 Gosto de aprender de verdade quando entendo o **porquê** das coisas
 
 <br clear="right"/>
 
@@ -31,7 +31,7 @@
 ☀️ **Follow Me on:**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-pablo--jorge07-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pablo-jorge07)
-[![Gmail](https://img.shields.io/badge/Gmail-contato-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seuemail@gmail.com)
+[![Gmail](https://img.shields.io/badge/Gmail-contato-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pablodosantos2007@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-PabloJDev-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PabloJDev)
 
 ---

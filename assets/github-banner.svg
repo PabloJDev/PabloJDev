@@ -1,0 +1,203 @@
+<svg viewBox="0 0 900 220" width="900" height="220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=Share+Tech+Mono&amp;display=swap');
+    </style>
+
+    <!-- Background gradient -->
+    <radialGradient id="glow1" cx="20%" cy="60%" r="50%">
+      <stop offset="0%" stop-color="#FFC800" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#FFC800" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="80%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#0096FF" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#0096FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Grid pattern -->
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="rgba(255,215,0,0.04)" stroke-width="1"/>
+    </pattern>
+
+    <!-- City silhouette clip -->
+    <clipPath id="cityClip">
+      <rect x="0" y="0" width="900" height="220"/>
+    </clipPath>
+  </defs>
+
+  <!-- Base background -->
+  <rect width="900" height="220" fill="#0a0a0f"/>
+
+  <!-- Glow layers -->
+  <rect width="900" height="220" fill="url(#glow1)"/>
+  <rect width="900" height="220" fill="url(#glow2)"/>
+
+  <!-- Grid -->
+  <rect width="900" height="220" fill="url(#grid)"/>
+
+  <!-- ── CITY SILHOUETTE ── -->
+  <g fill="#0f0f18" clip-path="url(#cityClip)">
+    <!-- Left buildings -->
+    <rect x="0"   y="160" width="18" height="60"/>
+    <rect x="20"  y="145" width="22" height="75"/>
+    <rect x="44"  y="155" width="14" height="65"/>
+    <rect x="60"  y="135" width="30" height="85"/>
+    <rect x="92"  y="150" width="18" height="70"/>
+    <rect x="112" y="140" width="24" height="80"/>
+    <rect x="138" y="158" width="16" height="62"/>
+    <rect x="156" y="130" width="28" height="90"/>
+    <rect x="186" y="148" width="20" height="72"/>
+    <rect x="208" y="142" width="26" height="78"/>
+    <!-- windows left buildings -->
+    <rect x="25"  y="152" width="4" height="4" fill="rgba(255,215,0,0.15)"/>
+    <rect x="32"  y="152" width="4" height="4" fill="rgba(255,215,0,0.10)"/>
+    <rect x="25"  y="160" width="4" height="4" fill="rgba(88,166,255,0.12)"/>
+    <rect x="65"  y="142" width="5" height="4" fill="rgba(255,215,0,0.15)"/>
+    <rect x="73"  y="142" width="5" height="4" fill="rgba(255,215,0,0.08)"/>
+    <rect x="65"  y="150" width="5" height="4" fill="rgba(88,166,255,0.10)"/>
+    <rect x="117" y="148" width="5" height="4" fill="rgba(255,215,0,0.12)"/>
+    <rect x="125" y="148" width="5" height="4" fill="rgba(88,166,255,0.10)"/>
+    <rect x="161" y="137" width="6" height="5" fill="rgba(255,215,0,0.15)"/>
+    <rect x="170" y="137" width="6" height="5" fill="rgba(255,215,0,0.08)"/>
+    <rect x="161" y="146" width="6" height="5" fill="rgba(88,166,255,0.12)"/>
+
+    <!-- Right buildings -->
+    <rect x="680" y="152" width="20" height="68"/>
+    <rect x="702" y="138" width="28" height="82"/>
+    <rect x="732" y="150" width="18" height="70"/>
+    <rect x="752" y="132" width="32" height="88"/>
+    <rect x="786" y="148" width="22" height="72"/>
+    <rect x="810" y="140" width="26" height="80"/>
+    <rect x="838" y="155" width="16" height="65"/>
+    <rect x="856" y="135" width="24" height="85"/>
+    <rect x="882" y="160" width="18" height="60"/>
+    <!-- windows right buildings -->
+    <rect x="707" y="145" width="5" height="4" fill="rgba(255,215,0,0.15)"/>
+    <rect x="715" y="145" width="5" height="4" fill="rgba(88,166,255,0.10)"/>
+    <rect x="757" y="140" width="6" height="5" fill="rgba(255,215,0,0.12)"/>
+    <rect x="766" y="140" width="6" height="5" fill="rgba(255,215,0,0.08)"/>
+    <rect x="757" y="149" width="6" height="5" fill="rgba(88,166,255,0.12)"/>
+    <rect x="815" y="148" width="5" height="4" fill="rgba(255,215,0,0.15)"/>
+    <rect x="823" y="148" width="5" height="4" fill="rgba(88,166,255,0.10)"/>
+    <rect x="861" y="142" width="5" height="4" fill="rgba(255,215,0,0.12)"/>
+    <rect x="869" y="142" width="5" height="4" fill="rgba(255,215,0,0.08)"/>
+  </g>
+
+  <!-- ── PIXEL ART CHARACTER (center-right) ── -->
+  <g transform="translate(490, 28)">
+    <!-- Desk -->
+    <rect x="0"   y="140" width="120" height="6"  fill="#3d2b1f"/>
+    <rect x="4"   y="146" width="4"   height="30" fill="#3d2b1f"/>
+    <rect x="112" y="146" width="4"   height="30" fill="#3d2b1f"/>
+
+    <!-- Monitor -->
+    <rect x="28"  y="102" width="64" height="42" rx="2" fill="#1a1a2e"/>
+    <rect x="31"  y="105" width="58" height="34" fill="#0a0f1e"/>
+    <!-- Code lines on screen -->
+    <rect x="34"  y="108" width="24" height="3" fill="#00ff88" opacity="0.8"/>
+    <rect x="34"  y="113" width="18" height="2" fill="#58a6ff" opacity="0.8"/>
+    <rect x="34"  y="117" width="20" height="2" fill="#FFD700" opacity="0.8"/>
+    <rect x="34"  y="121" width="14" height="2" fill="#00ff88" opacity="0.6"/>
+    <rect x="62"  y="108" width="22" height="2" fill="#ff6b6b" opacity="0.7"/>
+    <rect x="62"  y="112" width="16" height="2" fill="#58a6ff" opacity="0.7"/>
+    <rect x="62"  y="116" width="20" height="2" fill="#FFD700" opacity="0.7"/>
+    <!-- Monitor stand -->
+    <rect x="56"  y="144" width="8"  height="5"  fill="#2d2d2d"/>
+    <rect x="50"  y="149" width="20" height="3"  fill="#2d2d2d"/>
+
+    <!-- Keyboard -->
+    <rect x="20"  y="150" width="50" height="10" rx="1" fill="#1f1f1f"/>
+    <rect x="20"  y="150" width="50" height="1"  fill="#58a6ff" opacity="0.5"/>
+
+    <!-- Body / Chair -->
+    <rect x="74"  y="130" width="28" height="18" rx="2" fill="#2d2d2d"/>
+    <rect x="78"  y="115" width="20" height="18" fill="#1e2a3a"/>
+
+    <!-- Arms -->
+    <rect x="74"  y="117" width="6"  height="12" rx="2" fill="#8B5E3C"/>
+    <rect x="73"  y="127" width="8"  height="4"  rx="1" fill="#7a5235"/>
+    <rect x="96"  y="122" width="6"  height="14" rx="2" fill="#8B5E3C"/>
+    <rect x="95"  y="134" width="8"  height="4"  rx="1" fill="#7a5235"/>
+
+    <!-- Neck -->
+    <rect x="84"  y="111" width="8"  height="6"  fill="#8B5E3C"/>
+
+    <!-- Head -->
+    <rect x="80"  y="88"  width="16" height="16" rx="2" fill="#8B5E3C"/>
+    <rect x="81"  y="88"  width="14" height="5"  fill="#7a5235"/>
+    <!-- Hair -->
+    <rect x="79"  y="85"  width="18" height="5"  rx="2" fill="#1a0f00"/>
+    <rect x="79"  y="87"  width="18" height="2"  fill="#1a0f00"/>
+    <!-- Sideburns -->
+    <rect x="79"  y="90"  width="2"  height="6"  fill="#1a0f00"/>
+    <rect x="95"  y="90"  width="2"  height="6"  fill="#1a0f00"/>
+    <!-- Eyes -->
+    <rect x="83"  y="94"  width="3"  height="3"  fill="#0d0d0d"/>
+    <rect x="90"  y="94"  width="3"  height="3"  fill="#0d0d0d"/>
+    <!-- Eye whites -->
+    <rect x="84"  y="94"  width="1"  height="1"  fill="white" opacity="0.6"/>
+    <rect x="91"  y="94"  width="1"  height="1"  fill="white" opacity="0.6"/>
+    <!-- Nose -->
+    <rect x="87"  y="98"  width="2"  height="2"  fill="#7a5235"/>
+    <!-- Mouth -->
+    <rect x="84"  y="102" width="8"  height="2"  fill="#5a3520"/>
+    <rect x="85"  y="101" width="6"  height="1"  fill="#6b4028"/>
+
+    <!-- Headphones -->
+    <rect x="77"  y="86"  width="3"  height="12" rx="1" fill="#333"/>
+    <rect x="96"  y="86"  width="3"  height="12" rx="1" fill="#333"/>
+    <rect x="77"  y="85"  width="22" height="3"  rx="2" fill="#222"/>
+    <!-- Headphone cups -->
+    <rect x="75"  y="91"  width="5"  height="7"  rx="2" fill="#FFD700" opacity="0.9"/>
+    <rect x="96"  y="91"  width="5"  height="7"  rx="2" fill="#FFD700" opacity="0.9"/>
+
+    <!-- Screen glow on face -->
+    <rect x="80"  y="92"  width="16" height="16" rx="2" fill="#58a6ff" opacity="0.05"/>
+
+    <!-- Coffee mug -->
+    <rect x="104" y="134" width="8"  height="9"  rx="1" fill="#c0392b"/>
+    <rect x="112" y="137" width="3"  height="4"  rx="1" fill="none" stroke="#c0392b" stroke-width="1"/>
+    <rect x="105" y="135" width="6"  height="2"  fill="#e74c3c"/>
+    <!-- Steam -->
+    <line x1="107" y1="133" x2="106" y2="130" stroke="white" stroke-width="0.8" opacity="0.4"/>
+    <line x1="110" y1="133" x2="111" y2="130" stroke="white" stroke-width="0.8" opacity="0.4"/>
+
+    <!-- Floating code particles -->
+    <text x="-80" y="112" font-family="monospace" font-size="9" fill="#FFD700" opacity="0.4">&lt;/&gt;</text>
+    <text x="140" y="97"  font-family="monospace" font-size="9" fill="#FFD700" opacity="0.4">{ }</text>
+    <text x="136" y="117" font-family="monospace" font-size="9" fill="#58a6ff" opacity="0.4">fn()</text>
+    <text x="-88" y="132" font-family="monospace" font-size="9" fill="#58a6ff" opacity="0.4">const</text>
+  </g>
+
+  <!-- ── LEFT TEXT ── -->
+  <!-- Name -->
+  <text x="32" y="172"
+    font-family="'Press Start 2P', monospace"
+    font-size="13"
+    fill="#FFD700"
+    filter="url(#nameGlow)">Pablo The Dev</text>
+
+  <!-- Quote lines -->
+  <text x="32" y="190" font-family="'Share Tech Mono', monospace" font-size="11" fill="rgba(255,255,255,0.45)">from Recife, building the future.</text>
+  <text x="32" y="203" font-family="'Share Tech Mono', monospace" font-size="11" fill="rgba(255,255,255,0.45)">one commit at a time.</text>
+
+  <!-- ── RIGHT CODE BLOCK ── -->
+  <text x="820" y="162" font-family="'Share Tech Mono', monospace" font-size="11" fill="rgba(100,200,255,0.7)" text-anchor="end">life = code;</text>
+  <text x="820" y="175" font-family="'Share Tech Mono', monospace" font-size="11" fill="rgba(100,200,255,0.7)" text-anchor="end">while(learning){</text>
+  <text x="820" y="188" font-family="'Share Tech Mono', monospace" font-size="11" fill="rgba(100,200,255,0.7)" text-anchor="end">  build(more);</text>
+  <text x="820" y="201" font-family="'Share Tech Mono', monospace" font-size="11" fill="rgba(100,200,255,0.7)" text-anchor="end">  commit("feat: grow");</text>
+  <text x="820" y="214" font-family="'Share Tech Mono', monospace" font-size="11" fill="rgba(100,200,255,0.7)" text-anchor="end">}</text>
+
+  <!-- Glow filter for name -->
+  <defs>
+    <filter id="nameGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="1 0.8 0 0 0  0.8 0.6 0 0 0  0 0 0 0 0  0 0 0 0.6 0" result="goldGlow"/>
+      <feMerge>
+        <feMergeNode in="goldGlow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>
